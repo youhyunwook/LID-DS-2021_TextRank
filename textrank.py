@@ -7,7 +7,7 @@ from tqdm import tqdm
 from collections import Counter
 
 # =========================
-# 0. 경로 설정 (사용자 환경에 맞게)
+# 0. 경로 설정 
 # =========================
 THIS_FILE = Path(__file__).resolve()
 ROOT = THIS_FILE
@@ -148,4 +148,5 @@ def main():
     print(f"파일 저장 위치: {os.path.abspath(OUTPUT_CSV)}")
 
 if __name__ == "__main__":
+
     main()
